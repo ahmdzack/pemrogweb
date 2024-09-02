@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nurfadillah Umar</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo-container">
+          <div class="logo-symbol">|||</div>
+          <h1 class="logo-text">Nurfadillah Umar</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-content">
+      <section class="hero" id="home">
+        <div class="hero-inner">
+          <img src="./images/hero-new.png" alt="Person with a laptop" class="hero-image" />
+          <div class="hero-text">
+            <h1>Hey there! 👋<br />I'm <span class="highlight">Nurfadillah Umar</span></h1>
+            <p>Passionate about coding and <span class="highlight">&lt;/code&gt;</span></p>
+            <div class="tech-stack">
+              <h2>Tech Stack I Love:</h2>
+              <div class="tech-icons">
+                <img src="./images/icons/python.svg" alt="Python" class="tech-icon" />
+                <img src="./images/icons/javascript.svg" alt="JavaScript" class="tech-icon" />
+                <img src="./images/icons/tailwind.svg" alt="Tailwind CSS" class="tech-icon" />
+                <img src="./images/icons/react.svg" alt="React" class="tech-icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-inner">
+          <h2>About Me</h2>
+          <p>
+            I am a student at Hasanuddin University, pursuing Informatics Engineering. Recently, I've immersed myself in web development, particularly in database management. I'm also enhancing my problem-solving skills through studying algorithms and data structures.
+          </p>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <h1>Projects Showcase</h1>
+        <div class="project-list">
+          <div class="project-item">
+            <img src="./images/todolist-new.png" alt="Todo List" class="project-image" />
+            <div class="project-info">
+              <p>This To-Do List app, built with JavaScript, React, and Tailwind, helps users manage their tasks effectively.</p>
+              <a href="https://github.com/fadillahumarr/TodoList.git" class="project-link">View More</a>
+            </div>
+          </div>
+          <div class="project-item">
+            <img src="./images/movie-new.png" alt="Movie Buffs Corner" class="project-image" />
+            <div class="project-info">
+              <p>Movie Buffs Corner is a modern platform for exploring movies using JavaScript, React, and Tailwind CSS, integrated with the TMDB API.</p>
+              <a href="https://github.com/fadillahumarr/Movie-Buffs-Corner.git" class="project-link">View More</a>
+            </div>
+          </div>
+          <div class="project-item">
+            <img src="./images/restaurant-new.png" alt="Restaurant Website" class="project-image" />
+            <div class="project-info">
+              <p>This restaurant website is crafted with HTML, CSS, and JavaScript to create an engaging online presence.</p>
+              <a href="https://github.com/fadillahumarr/Restaurant.git" class="project-link">View More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h1>Get in Touch</h1>
+        <p>Have a project or need collaboration? I'd love to hear from you!</p>
+        <div class="social-links">
+          <a href="https://github.com/fadillahumarr" class="social-icon"><img src="./images/icons/github.svg" alt="GitHub" /></a>
+          <a href="" class="social-icon"><img src="./images/icons/linkedin.svg" alt="LinkedIn" /></a>
+          <a href="" class="social-icon"><img src="./images/icons/instagram.svg" alt="Instagram" /></a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2024 Nurfadillah Umar</p>
+    </footer>
+  </body>
+</html>
